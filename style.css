@@ -30,8 +30,11 @@ body{
     flex-direction: column; /* Arrange images in a column */
     gap: 10px; /* Add space between images */
 }
-  .image-container img {
+.image-container img {
     max-width: 80%; /* Ensure images are responsive */
     height: auto; /* Maintain aspect ratio */
     align-self: center; /* Align images to the center */
-  }
+}
+.mm{
+    transform: scale(0.5);
+}
