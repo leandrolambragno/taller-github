@@ -1,16 +1,36 @@
 html{
     background-color: gainsboro
 }
-
 body{
+    display: grid;
     margin: 10px 100px;
-}
-
-p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-.container {
+.container{
     display: flex;
-    gap: 200px;
+    gap: 100px;
 }
+.hobbies{
+    display: grid;
+}
+.series{
+    display: grif;
+    flex: 1; /* Take up 1 part of the available space */
+    margin-right: 20px; /* Add some space between the list and images */
+    list-style-type: none; /* Remove bullet points */
+}
+.container2{
+    display: grid; /* Use flexbox to create a side-by-side layout */
+    align-items: flex-start; /* Align items at the top */
+}
+.image-container {
+    flex: 1; /* Take up 1 part of the available space */
+    display: flex;
+    flex-direction: column; /* Arrange images in a column */
+    gap: 10px; /* Add space between images */
+}
+  .image-container img {
+    max-width: 80%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+    align-self: center; /* Align images to the center */
+  }
