@@ -35,6 +35,6 @@ body{
     height: auto; /* Maintain aspect ratio */
     align-self: center; /* Align images to the center */
 }
-.mm{
+.image-container .mm{
     transform: scale(0.5);
 }
