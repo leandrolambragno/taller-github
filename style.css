@@ -1,5 +1,5 @@
 html{
-    background-color: gainsboro
+    background-color: rgb(155, 74, 74);
 }
 body{
     display: grid;
@@ -9,12 +9,13 @@ body{
 .container{
     display: flex;
     gap: 100px;
+    justify-content: space-evenly;
 }
 .hobbies{
     display: grid;
 }
 .series{
-    display: grif;
+    display: grid;
     flex: 1; /* Take up 1 part of the available space */
     margin-right: 20px; /* Add some space between the list and images */
     list-style-type: none; /* Remove bullet points */
